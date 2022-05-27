@@ -1,9 +1,33 @@
 {
-	"Print console.log": {
+	"Console.log snippet": {
 		"prefix": "cons",
 		"body": [
 		  "console.log(${1});"
 		],
 		"description": "Print console.log"
-	  }
+	  },
+
+  "Const snippet": {
+	"prefix": "const",
+	"body": [
+	  "const ${1}  = ${2};"
+	],
+	"description": "Print const"
+  },
+
+  "Print var ": {
+	"prefix": "var",
+	"body": [
+	  "var ${1}  = ${2};"
+	],
+	"description": "Print var "
+  },
+
+  "Print let": {
+	"prefix": "let",
+	"body": [
+	  "let ${1}  = ${2};"
+	],
+	"description": "Print let"
+  },
 }
