@@ -1,0 +1,9 @@
+{
+	"Print console.log": {
+		"prefix": "cons",
+		"body": [
+		  "console.log($1);"
+		],
+		"description": "Print console.log"
+	  }
+}
